@@ -87,7 +87,7 @@ i am only pro bot of tamil users❤
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !\n",
 )
 
-SAITAMA_IMG = "https://telegra.ph/file/ad8b3c54bf7b202f7a07f.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/4f42e82578bc0d51fe02e.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate for developer. This bot runs on heroku so bot slow down some times and developer cannot add more modules due to heroku can't run them.\n\nBetter if my developer recieved a VPS to run the bot. Contact him and help him to continue this.\n\nDeveloper: [DANGER BOTS](t.me/DANGER_BOTS)"""
 
@@ -207,7 +207,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="➕ Add ME",
-                                url="t.me/isaiminibot?startgroup=true".format(
+                                url="t.me/Eagle_probot?startgroup=true".format(
                                     context.bot.username
                                 ),
                             )
@@ -215,16 +215,16 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="support chat",
-                                url=f"https://t.me/{SUPPORT_CHAT}",
+                                url=f"https://t.me/{Athena_support}",
                             ),
                             InlineKeyboardButton(
                                 text="founder",
-                                url="https://t.me/Marinemafiya",
+                                url="https://t.me/My_Dear_lightbright",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text= "Dev", url="https://t.me/Danger_bots"
+                                text= "Dev", url="https://t.me/My_Dear_lightbright"
                             ),
                         ],
                     ]
