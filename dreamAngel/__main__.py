@@ -215,7 +215,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="support chat",
-                                url=f"https://t.me/{Athena_support}",
+                                url=f"https://t.me/Athena_support",
                             ),
                             InlineKeyboardButton(
                                 text="founder",
