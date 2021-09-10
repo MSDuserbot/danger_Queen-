@@ -79,9 +79,25 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = "Hi {}, my name is {} 👸\n\n One of the Most Powerfull Telegram ProBot to Manage Your Groups,feel free to add to your groups And mainly Created for Tamil users  Many Tamil Fun Tools are there You can check with /help "
 
 HELP_STRINGS = """
+
 Hey there! My name is *{}*.
 i am only pro bot of tamil users❤
+
 {}
+*Main Commands :* [🤖](https://telegra.ph/file/c16544b8c4d1df60542dc.jpg)
+
+✪ /start: Starts me! You've probably already used this.
+
+✪ /help: Click this, I'll let you know about myself!
+
+✪ /donate: You can support my creater using this command.
+
+✪ /settings: 
+
+     ✪ in PM: will send you your settings for all supported modules.
+
+     ✪ in a Group: will redirect you to pm, with all that chat's settings.
+
 """.format(
     dispatcher.bot.first_name,
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !\n",
